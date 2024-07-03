@@ -218,8 +218,8 @@ export function SideBar(props: { className?: string }) {
             </Link>
           </div>
           <div className={styles["sidebar-action"]}>
-            <a href={REPO_URL} target="_blank" rel="noopener noreferrer">
-              <IconButton icon={<GithubIcon />} shadow />
+            <a href="https://we8.ai/" target="_blank" rel="noopener noreferrer">
+              <IconButton icon={<span style={{ fontSize: '1.2em' }}>⫸</span>} shadow />
             </a>
           </div>
         </div>
